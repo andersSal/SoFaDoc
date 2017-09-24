@@ -1,0 +1,51 @@
+TIPS: Bruk ALT + TAB for å raskt bytte mellom SoFa og et annet program.
+
+Perspektiv:
+
+1. Søkefelt: 
+  - ESC   : Visker ut søkefelt
+  - Enter : Søker bibliotek etter input, endrer fokus til tabell og viser søkeresultater.
+  - Tab   : Endrer fokus til tabell.
+  - Ctrl + Enter: Endrer fokus til teksteditor uten å søke.
+  
+	
+2. Tabell: 
+  - ESC    : Endrer fokus til søkefelt.
+  - Tab    : Blar nedover resultater i tabellen.
+  - Delete : Sletter frase fra biblioteket (markert celle).
+  - F2     : Hvis celle er markert i tabellen, kopieres denne cellen direkte til utklippstavle.
+             Hvis ingen celle er markert, kopieres innholdet i teksteditor til utklippstavle.
+  - Enter  : Endrer fokus og kopierer valgt celle til teksteditor, skuler tabell/søkeresultater.
+  - Ctrl + Enter: Endrer fokus til teksteditor uten å kopiere.
+  - Ctrl + Insert : Endrer frase (markert celle).
+
+3. Teksteditor: 
+  - ESC    : Endrer fokus til søkefelt.
+  - Insert : Legger til ny frase til bibliotek (markert område i teksteditor).
+  - Dobbeltklikke på ord, Ctrl + piltast opp/ned eller Ctrl + rulle på midterste museknapp: Endrer ordet det fokuseres 
+  	på om det finnes en QuickFix-link.
+	
+4. Felles for Søkefelt, Tabell og Teksteditor: 
+  - F2   : Kopierer til utsklippstavle, endrer fokus til søkefelt (MERK: Se F2 Tabell).
+  - F3   : Visker ut teksteditor.
+  - F7   : Skrur QuickFix av/på.
+  - F9   : Skrur ColorLinks av/på.
+  - F11  : Skrur AutoCorrect av/på.
+  - F12  : Endrer resultater til det motsatte kjønn.
+  - Ctrl + Space: Viser/skjuler søkeresultater.
+  - Ctrl + Alt + Backspace: Avslutter program.
+ 
+5. Felles for AutoCorrect, ColorLinks og QuickFix:
+   -Insert     : Lagrer forkortelse, ColorLink, QuickFix-link
+   -Delete     : Slette ---------------""-------------------
+   -Ctrl + Insert: Endre  ---------------""-------------------
+   -Ctrl + Enter : Lukker panel
+  	
+
+6. Mus: 
+  - En kan isteden for tastetrykk "dra" et søkeresultat ned til ønsket plassering i teksteditor.
+  - En kan midlertidig redigere celler i tabellen ved å dobbelklikke på en celle. Denne endingen vil vare til 
+    et nytt søk foretas, og vil derfor ikke medføre permanent endring i biblioteksfilen.
+  - Dobbelklikk i søkefelt visker ut søkefelt
+  - Høyreklikke på ikon for AutoCorrect, ColorLinks, QuickFix åpner panel. 
+  

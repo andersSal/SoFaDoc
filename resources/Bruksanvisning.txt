@@ -1,0 +1,130 @@
+1. OM SOFA
+==========
+* SoFa er et enkelt  som er ment som å fungere som et supplement til andre programmer som for eksempel Infodoc. 
+* I tillegg til å være en vanlig tekstedittekstediteringsprogramor, kan du lagre og søke etter generelle tekster/setninger du gjerne skriver om og om igjen. 
+  Frasene du søker opp kan kopieres til teksteditoren, hvor du ved bruk av AutoCorrect, ColorLinks og QuickFix (se beskrivelse under) raskt og oversiktlig kan
+  redigere teksten. Når du er ferdig å redigere, kan teksten enkelt kopieres til utklippstavle (F2) for å bli limt inn (Ctrl V) på ønsket plassering.
+* TIPS: Dersom du kommer til å bruke SoFa som et supplement til et annet program, kan du bruke ALT + TAB for å raskt bytte mellom programmene.
+
+2. BIBLIOTEK OG SØK
+===================
+	
+OPPSTART
+========
+* Programmet vil ved første oppstart be deg angi en tekstfil som det vil bruke som bibliotek. Det er i denne filen programmet lagrer/søker etter dine 
+  egendefinerte fraser. Denne filen kan ligge hvor du måtte ønske på din PC.
+* Om du vil lage et nytt bibliotek, klikk 'Nytt bibliotek'. Angi navn og plassering for den nye tekstfilen. 
+  Om du vil laste eksisterende biblioteksfil, klikk 'Finn bibliotek'.
+* Du kan når som helst endre hvilken tekstfil som skal brukes som bibliotek ved å trykke på knappen 'Endre kildebibliotek' i programmet. 
+
+LEGGE TIL FRASER I BIBLIOTEK
+============================
+* For å legge til en ny frase i biblioteket, skriv frasen i teksteditoren, marker den og klikk på pluss-ikonet eller bruk hurtigtast Insert.
+* Dersom du ønsker å legge til mange fraser og synes dette er tungvint, kan du legge til fraser manuelt i biblioteksfilen. Dette gjøres på følgende måte:
+  Lukk først progammet(viktig). Deretter naviger til og åpne tekstfilen. Du kan så legge til/lime inn fraser, en frase per linje. []-symbolene kan ignoreres og
+  trengs ikke legges til da programmet gjør dette automatisk. Tallet innenfor hakeparentesene angir hvor mange ganger du har valgt denne frasen, og programmet
+  vil vise resultatene i tabellen relativt til antall ganger valgt. Lagre tekstfilen og kjør programmet på nytt. 
+
+ 
+SLETTE FRASER FRA BIBLIOTEK
+===========================
+* Klikk på/naviger deg frem til frasen du ønsker å slette i resultattabellen, deretter klikk på papirkurv-ikonet eller bruk hurtigtast Delete.
+* Ombestemmer du deg kan du klikke menyvalg 'Angre/Siste frase slettet' for å gjennopprette denne i biblioteket. 
+
+ 
+ENDRE FRASER I BIBLIOTEK
+========================
+* Klikk på/naviger deg frem til frasen du ønsker å endre i resultattabellen, deretter klikk på pil-ikonet eller bruk hurtigtast Ctrl + Insert
+
+
+SØKE I BIBLIOTEK
+================
+* Søk foretas ved å angi nøkkelord i søkefeltet på toppen i programmet. Trykk deretter på ikonet for søk (forstørrelsesglass) eller trykk enter.
+  Om du for eksempel har lagret frasen:
+  	'Pasienten har hatt langvarig irritasjon og ubehag i begge øyne.' 
+  og vil søke denne opp, kan du søke etter:
+ 	 'pasient øyne lang'.
+   Frasen vil så vises i resultattabellen (sammen med andre eventuelle treff). 
+* Søkene fungerer på den måten at programmet viser alle tilfellene i biblioteket som inneholder alle nøkkelordene du angir, og utelukker alle
+   frasene som ikke gjør det. Om du ikke angir noen nøkkelord vil resultattabellen vise alle frasene i biblioteket ditt. 
+* Nøkkelordene trenger imidlertid ikke være fullstendige, du kunne for eksempel like gjerne søkt etter frasen over med nøkkelordene:
+	 'pas øy lan' og fått dette som et resultat i tabellen. Større nøyaktighet i nøkkelordene gir imidlertid et mer avgrenset søk.
+* Nøkkelordene trenger ikke inneholde riktig stor eller liten bokstav.
+* Biblioteket er "kjønnsnøytralt", dvs at alle forekomster av: 
+	 'Han', 'hun', 'henne', 'hans' i setningene du lagrer, skrives av programmet som henholdsvis:
+	 'Hun//Han', 'hun//han', 'henne//ham', 'hennes//hans'. 
+  Dette gjøres av programmet automatisk, og bruker trenger ikke ta hensyn til dette. 
+* Søkefeltet tolker nøkkelordene 'han' og 'hun' som ekvivalente. Det samme gjelder 'hennes' og 'hans', 'henne' og 'ham'.
+* Resultattabellen viser 'han' eller 'hun' etc. avhengig av hvilket perspektiv knappen med kjønnsymboler står på. Om du for eksempel har søkt opp frasen: 
+ 	 'Hun er moderat langsynt og har en liten astigmatisme' 
+  Dersom knappen med kjønnsymboler står på symbolet for kvinne, vil den vises i tabellen som over. Dersom den står på symbolet for mann, vil 
+  resultattabellen istedet vise:
+	 'Han er moderat langsynt og har en liten astigmatisme' 
+	 
+
+REDIGERING OG KOPIERING TIL UTKLIPPSTAVLE
+=========================================
+* Om du får mange resultater i resultattabellen, bruk 'TAB' for å navigere til ønsket resultat. Når du valgt et resultat kan du kopiere frasen til teksteditoren 
+  ved å trykke enter (eventuelt "dra" ønsket frase ned til editoren med datamusen). 
+* Teksteditoren kan så redigeres manuelt eller ved bruk av QuickFix (se beskrivelse under)
+* Når du du er fornøyd med teksten i editoren og vil kopiere denne til utklippstavle, klikker du på ikonet med saks (hurtigtast F2). Teksten i editoren blir så
+  kopiert til utklippstavle. Trykk Ctrl + V for å lime inn i for eksempel Infodoc. Editoren blir så visket ut. Om du ombestemmer deg kan du klikke på menyen
+  'Angre/Gjennopprett siste teksteditor'.
+* Hvis du istedet vil kopiere et søkeresultat direkte til utklippstavle, klikk du på frasen du vil kopiere i tabellen, deretter klikk på ikonet med saks (Hurtigtast F2).
+
+
+3. AUTOCORRECT
+==============
+
+* Du kan se og redigere forkortelser ved å høyreklikke på ikonet for AutoCorrect eller gjennom menyvalg "AutoCorrect/Administrer AutoCorrect.
+* AutoCorrect fungerer på teksteditoren når AutoCorrect er skrudd på. Når du skriver i teksteditoren, vil programmet automatisk fullføre brukerdefinerte
+  forkortelser du skriver. Endringen skjer når en taster mellomrom, punktum, komma, kolon eller enter. 
+* EKS: Dersom forkortelsen 'mao' tilsvarer 'med andre ord' og en skriver 'mao' i teksteditoren etterfulgt av mellomrom, vil 'mao' endres til 'med andre ord '.
+* OBS: Forkortelsene må bestå kun av bokstaver uten tegn som f.eks punktum, komma osv. 
+* Under "Administrer AutoCorrect" kan du bestemme hvorvidt AutoCorrect skal være slått på/av ved programoppstart.
+      
+
+4. COLORLINKS
+=============
+
+* ColorLinks fargelegger ord eller setninger i teksteditoren. Du angir selv hvilke ord som skal fargelegges og hvilken farge som brukes på ordene.
+  ColorLinks kan være nyttig om du vil ha en visuell påminnelse om ord/setninger som skal kontrolleres før teksten blir kopiert til utklippstavle. 
+* Ved å klikke på ikonet for ColorLinks (fargepalett) skur du ColorLinks av eller på.
+* Ved å høyreklikke på ikonet for ColorLinks eller gjennom menyvalg "ColorLinks/Administrer ColorLinks" åpnes ColorLinks-panelet.
+* For å lagre en ny link: Angi farge, deretter skriv inn ordene du vil skal linkes til fargen i tekstfeltet (skilles med komma) og trykk "Lagre" 
+  (Hurtigtast Insert). 
+* OBS: ColorLinks fungerer ikke på ord/setninger som inkluderer følgende tegn  \ . , [ ] { } ( ) * + ? ^ $ | !
+* Ordene du linker lagres uavhengig av store/små bokstaver. 
+* Eksempel: Dersom du vil linke ordene 'høyre' og 'venstre' til en bestemt farge, velger du ønsket farge i fargepanelet. Deretter skriv "høyre, venstre" 
+  (Uten "") i tekstfeltet og klikk lagre. Alle tilfeller av ordene 'høyre', 'Høyre', 'venstre', 'Venstre' vil nå bli skrevet i fargen du valgte. 
+* Under "Administrer ColorLinks" kan du se hvilke linker som er lagret i tabellen. Ønsker du å slette en eksisterende link, velger du linken du ønsker 
+  å slette i tabellen og trykker slett (Hurtigtast Delete). 
+* Under "Administrer ColorLinks" kan du bestemme hvorvidt ColorLinks skal være slått på/av ved programoppstart.
+
+ 
+5. QUICKFIX
+=========== 
+
+* QuickFix tilrettelegger for rask korrektur av teksten i editoren, og gjør det mulig å generalisere biblioteket ditt i større grad. 
+  QuickFix fungerer på den måten at du linker ord sammen til en kjede. Dersom du vil endre et ord i teksteditoren og dette ordet er en del av en link, kan du 
+  dobbelklikke på ordet, bruke Ctrl + piltast opp/ned, eller bruke Ctrl + hjulet på datamusen for å klikke/rulle deg frem til riktig alternativ. 
+* Ved å klikke på ikonet for QuickFix (ikonet under ColorLinks) skrur du QuickFix av eller på.
+* Ved å høyreklikke på ikonet for QuickFick eller gjennom menyvalg "QuickFix/Administrer QuickFix", kan du legge til linker. 
+* For å langre en ny link: skriv inn du ordene du vil lenke sammen i tekstfeltet (skilles med komma) og klikk på "Lagre"
+  (Hurtigtast Insert).
+* OBS: QuickFix fungerer ikke på ord/setninger som inkluderer følgende tegn  \ . , [ ] { } ( ) * + ? ^ $ | !
+* Du trenger ikke ta hensyn til små/store bokstaver. Med andre ord: Hvis du legger til en link: han, hun, henne' vil linken 'Han, Hun, Henne' også opprettes. 
+* Eksempel: Hvis du vil lagre alle ukedagene som en link, åpner du QuickFix- panelet og skriver 'mandag, tirsdag, onsdag, torsdag, fredag, lørdag, søndag' i 
+  tekstfeltet og trykker lagre. Ukedagene er nå linket sammen. Dersom du skriver 'mandag' eller kopierer en frase med ordet 'mandag' til teksteditoren kan du 
+  enten:
+  (1) Dobbelklikke på ordet.
+  (2) Bruke Ctrl + piltast opp/ned.
+  (3) Holde nede Ctrl og rulle på midterste museknapp.
+  'mandag' vil så forandres til 'tirsdag'. Gjøres dette på nytt vil 'tirsdag' endres til 'onsdag' og så videre. Til slutt, dersom dette gjøres på 'søndag' 
+  (det bakerste elementet i lenken) vil 'søndag' forandres til 'mandag' (det første elementet i lenken). 
+* OBS: Om du vil linke setninger sammen (ikke bare enkeltord) må ordene i setningen skilles med '_' (understrek). 
+  Understrekene vil være synlige i resultattabellen og i teksteditoren, men vil bli fjernet automatisk ved kopiering til utklippstavle.
+  Eksempel: hvis du vil linke setningen 'ikke stor endring' sammen med setningen 'stor endring' skriver du: 'ikke_stor_endring, stor_endring' i tekstfeltet 
+  uten('') og klikker lagre. Kopieres en av disse setningene til uklippstavle vil understrekene bli fjernet. 
+* Under "Administrer QuickFix" kan du bestemme hvorvidt QuickFix skal være slått på/av ved programoppstart.
+	 
